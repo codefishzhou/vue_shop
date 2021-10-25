@@ -61,7 +61,7 @@ export default {
           // data为服务器返回的真实数据,将其解构为真实数据res
             if(res.meta.status !== 200) return this.$message.error('登录失败')
             this.$message.success('登录成功')
-            console.log(res);
+            // console.log(res);
             window.sessionStorage.setItem('token',res.data.token);
             // 跳转到home
             this.$router.push('./home')
