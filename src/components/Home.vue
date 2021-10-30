@@ -13,7 +13,7 @@
       <!-- 导航区域 -->
       <el-aside :width="iscollapse?'200px':'64px'">
           <div class='toggle_button' @click="toggleCollapse"><i class="iconfont icon-showpassword"></i></div>
-        <el-col :span="12">
+        <el-col :span="15">
           <el-menu
             background-color="#286F75"
             text-color="#fff"
@@ -147,6 +147,7 @@ export default {
 }
 .toggle_button{
     background-color:#2E7553;
+    
     font-size: 10px;
     line-height: 24px;
     color:#fff;
@@ -159,9 +160,9 @@ export default {
 }
 }
 .el-main {
-  background-image: url('../assets/img/1.jpg');
+  background-image: url('../assets/img/3.jpg');
   filter:alpha(opacity=70);-moz-opacity:0.9;opacity:0.70;
-  background-size: 100%;
+  background-size:100%;
 }
 
 
